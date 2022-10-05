@@ -1,0 +1,21 @@
+{
+  "name": "notebook/app-salon_php_mvc_js_sass",
+  "autoload": {
+    "psr-4": {
+      "MVC\\": "./",
+      "Controllers\\": "./controllers",
+      "Model\\": "./models",
+      "Classes\\": "./classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "nicolas tabia",
+      "email": "nikkoitf@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.6",
+    "vlucas/phpdotenv": "^5.4"
+  }
+}
