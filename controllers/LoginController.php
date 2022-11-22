@@ -50,8 +50,6 @@ class LoginController {
 
             }
 
-            debuguear($_SESSION);
-
           }
 
         } else {
